@@ -1,0 +1,130 @@
+/* Consolidated CSS for post and edit forms */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+}
+
+.post-container,
+.edit-container {
+    max-width: 600px;
+}
+
+/* Form Elements */
+.form-label {
+    color: #fff;
+    margin-bottom: 8px;
+    display: block;
+    font-weight: 500;
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    color: white !important;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+select.form-control {
+    color: #fff !important;
+}
+
+select.form-control option {
+    color: #333;
+}
+
+.card {
+    background: transparent;
+    border: none;
+}
+
+.alert-danger {
+    background: rgba(220, 53, 69, 0.2);
+    border: 1px solid rgba(220, 53, 69, 0.5);
+    color: #fff;
+}
+
+.text-danger {
+    color: #ff5252 !important;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.password-note {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Button Styles */
+.button {
+    padding: 12px 20px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.3); /* Latar gelap transparan */
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Lebar penuh untuk responsif */
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Variants - Warna lebih gelap */
+.button.primary {
+    background-color: rgba(0, 86, 179, 0.6); /* Biru gelap */
+    border-color: rgba(0, 123, 255, 0.7);
+}
+
+.button.warning {
+    background-color: rgba(179, 143, 0, 0.6); /* Kuning gelap */
+    border-color: rgba(255, 193, 7, 0.7);
+}
+
+.button.secondary {
+    background-color: rgba(76, 82, 89, 0.6); /* Abu-abu gelap */
+    border-color: rgba(108, 117, 125, 0.7);
+}
+
+.button.danger {
+    background-color: rgba(179, 0, 21, 0.6); /* Merah gelap */
+    border-color: rgba(220, 53, 69, 0.7);
+}
+
+/* Button Group */
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .button-group {
+        flex-direction: column;
+    }
+
+    .button {
+        width: 100%;
+    }
+}

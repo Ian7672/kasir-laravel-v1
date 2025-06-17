@@ -1,0 +1,47 @@
+.sidebar {
+    width: 250px;
+    background-color: rgba(33, 37, 41, 0.6); /* Transparan */
+    backdrop-filter: blur(10px); /* efek kaca */
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding: 20px;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+}
+
+.sidebar.show {
+    transform: translateX(0);
+}
+
+.sidebar-toggle-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1100;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 15px 18px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px 0;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+}

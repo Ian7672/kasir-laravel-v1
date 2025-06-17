@@ -1,0 +1,148 @@
+/* Reuse the dashboard.css styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1a2a6c, #28a745);
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.error-container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 15px;
+    padding: 40px;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.error-icon {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.error-number {
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.error-message {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.error-description {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    border: none;
+    border-radius: 8px;
+    padding: 12px 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.btn-primary {
+    background: rgba(0, 123, 255, 0.8);
+    border: 1px solid rgba(0, 123, 255, 0.4);
+    color: white;
+}
+
+.btn-primary:hover {
+    background: rgba(0, 123, 255, 1);
+    border: 1px solid rgba(0, 123, 255, 0.8);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 123, 255, 0.3);
+}
+
+.btn-secondary {
+    background: rgba(108, 117, 125, 0.8);
+    border: 1px solid rgba(108, 117, 125, 0.4);
+    color: white;
+}
+
+.btn-secondary:hover {
+    background: rgba(108, 117, 125, 1);
+    border: 1px solid rgba(108, 117, 125, 0.8);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(108, 117, 125, 0.3);
+}
+
+.back-link {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.back-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .error-container {
+        padding: 30px 20px;
+    }
+
+    .error-number {
+        font-size: 80px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .action-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
