@@ -94,7 +94,7 @@ Pull request dipersilakan. Untuk perubahan besar, buka issue terlebih dahulu unt
 
 ## Demo Aplikasi
 
-[Link Demo Aplikasi]()
+[Link Demo Aplikasi](https://github.com/user-attachments/assets/4cf72a2e-e06e-4959-9d38-4882d027db05)
 
 
 ## 👨‍💻 Developer
