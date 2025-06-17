@@ -66,11 +66,7 @@ Buka http://localhost:8000 di browser Anda.
 
 ### Login
 - **Admin**: 
-  - Username: admin
-  - Password: password123
-- **Karyawan**: 
-  - Username: karyawan
-  - Password: password123
+  - Token: 0KASIRADMIN9##
 
 ### Fitur Admin
 - Mengelola semua data (barang, pelanggan, transaksi)
@@ -95,10 +91,6 @@ Sistem ini menggunakan desain modern dengan:
 ## Kontribusi
 
 Pull request dipersilakan. Untuk perubahan besar, buka issue terlebih dahulu untuk mendiskusikan apa yang ingin Anda ubah.
-
-## Lisensi
-
-[MIT](https://choosealicense.com/licenses/mit/)
 
 ## Demo Aplikasi
 
