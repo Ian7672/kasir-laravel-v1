@@ -88,10 +88,6 @@ Sistem ini menggunakan desain modern dengan:
 - Form yang user-friendly
 - Notifikasi interaktif
 
-## Kontribusi
-
-Pull request dipersilakan. Untuk perubahan besar, buka issue terlebih dahulu untuk mendiskusikan apa yang ingin Anda ubah.
-
 ## Demo Aplikasi
 
 [Link Demo Aplikasi](https://github.com/user-attachments/assets/4cf72a2e-e06e-4959-9d38-4882d027db05)
